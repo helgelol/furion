@@ -1,0 +1,890 @@
+@import url( font-awesome.min.css );
+@import url( http://fonts.googleapis.com/css?family=Source+Sans+Pro:300 );
+html {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+body {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+div {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+span {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+applet {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+object {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+iframe {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h1 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h2 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h3 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h4 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h5 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h6 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+p {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+blockquote {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+pre {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+a {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+abbr {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+acronym {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+address {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+big {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+cite {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+code {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+del {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dfn {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+em {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+img {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ins {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+kbd {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+q {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+s {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+samp {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+small {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+strike {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+strong {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+sub {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+sup {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+tt {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+var {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+b {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+u {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+i {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+center {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dl {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dt {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dd {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ol {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ul {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+li {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+fieldset {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+form {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+label {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+legend {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+table {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+caption {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+tbody {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+tfoot {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+thead {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+tr {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+th {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+td {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+article {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+aside {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+canvas {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+details {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+embed {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+figure {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+figcaption {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+footer {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+header {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+hgroup {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+menu {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+nav {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+output {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ruby {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+section {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+summary {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+time {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+mark {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+audio {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+video {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+menu {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+q {
+	quotes: none;
+}
+blockquote::before {
+	content: none;
+}
+blockquote::after {
+	content: none;
+}
+q::before {
+	content: none;
+}
+q::after {
+	content: none;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+body {
+	-webkit-text-size-adjust: none;
+}
+* {
+	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+*::before {
+	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+*::after {
+	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+@media screen and (max-width:480px)
+{
+html {
+	min-width: 320px;
+}
+body {
+	min-width: 320px;
+}
+}
+body.is-loading * {
+	transition:none !important; animation:none !important; -webkit-animation: none; -moz-animation: none; -moz-transition: none; -webkit-transition: none;
+}
+body.is-loading *::before {
+	transition:none !important; animation:none !important; -webkit-animation: none; -moz-animation: none; -moz-transition: none; -webkit-transition: none;
+}
+body.is-loading *::after {
+	transition:none !important; animation:none !important; -webkit-animation: none; -moz-animation: none; -moz-transition: none; -webkit-transition: none;
+}
+html {
+	height: 100%;
+}
+body {
+	background-position: left top, center, bottom; height: 100%; background-image: url("img/bg.jpg"); background-attachment: fixed, fixed, fixed; background-repeat: repeat, no-repeat, no-repeat; background-size: cover; background-color: rgb(62, 125, 168);
+}
+body::after {
+	transition:opacity 1.75s ease-out; left: 0px; top: 0px; width: 100%; height: inherit; display: block; position: fixed; z-index: 1; content: ""; opacity: 0; background-color: rgb(255, 255, 255); -moz-transition: opacity 1.75s ease-out; -webkit-transition: opacity 1.75s ease-out;
+}
+body.is-loading::after {
+	opacity: 1;
+}
+body {
+	color: rgb(255, 255, 255); text-transform: uppercase; line-height: 2; letter-spacing: 0.2em; font-family: "Source Sans Pro", Helvetica, sans-serif; font-size: 14pt; font-weight: 300;
+}
+input {
+	color: rgb(255, 255, 255); text-transform: uppercase; line-height: 2; letter-spacing: 0.2em; font-family: "Source Sans Pro", Helvetica, sans-serif; font-size: 14pt; font-weight: 300;
+}
+select {
+	color: rgb(255, 255, 255); text-transform: uppercase; line-height: 2; letter-spacing: 0.2em; font-family: "Source Sans Pro", Helvetica, sans-serif; font-size: 14pt; font-weight: 300;
+}
+textarea {
+	color: rgb(255, 255, 255); text-transform: uppercase; line-height: 2; letter-spacing: 0.2em; font-family: "Source Sans Pro", Helvetica, sans-serif; font-size: 14pt; font-weight: 300;
+}
+@media screen and (max-width:1680px)
+{
+body {
+	font-size: 11pt;
+}
+input {
+	font-size: 11pt;
+}
+select {
+	font-size: 11pt;
+}
+textarea {
+	font-size: 11pt;
+}
+}
+@media screen and (max-width:480px)
+{
+body {
+	line-height: 1.75; font-size: 10pt;
+}
+input {
+	line-height: 1.75; font-size: 10pt;
+}
+select {
+	line-height: 1.75; font-size: 10pt;
+}
+textarea {
+	line-height: 1.75; font-size: 10pt;
+}
+}
+a {
+	transition:color 0.2s, border-color 0.2s; color: inherit; text-decoration: none; -moz-transition: color 0.2s ease, border-color 0.2s ease; -webkit-transition: color 0.2s ease, border-color 0.2s ease;
+}
+a::before {
+	transition:color 0.2s, text-shadow 0.2s; -moz-transition: color 0.2s ease, text-shadow 0.2s ease; -webkit-transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+a:hover {
+	color: rgb(0, 0, 0);
+}
+strong {
+	color: rgb(49, 63, 71);
+}
+b {
+	color: rgb(49, 63, 71);
+}
+em {
+	font-style: italic;
+}
+i {
+	font-style: italic;
+}
+p {
+	margin: 0px 0px 1.5em;
+}
+h1 {
+	margin: 0px 0px 0.75em; color: rgb(255, 255, 255); line-height: 1.5;
+}
+h2 {
+	margin: 0px 0px 0.75em; color: rgb(255, 255, 255); line-height: 1.5;
+}
+h3 {
+	margin: 0px 0px 0.75em; color: rgb(255, 255, 255); line-height: 1.5;
+}
+h4 {
+	margin: 0px 0px 0.75em; color: rgb(255, 255, 255); line-height: 1.5;
+}
+h5 {
+	margin: 0px 0px 0.75em; color: rgb(255, 255, 255); line-height: 1.5;
+}
+h6 {
+	margin: 0px 0px 0.75em; color: rgb(255, 255, 255); line-height: 1.5;
+}
+h1 a {
+	color: inherit; text-decoration: none;
+}
+h2 a {
+	color: inherit; text-decoration: none;
+}
+h3 a {
+	color: inherit; text-decoration: none;
+}
+h4 a {
+	color: inherit; text-decoration: none;
+}
+h5 a {
+	color: inherit; text-decoration: none;
+}
+h6 a {
+	color: inherit; text-decoration: none;
+}
+h1 {
+	margin: 0px 0px 0.52em; letter-spacing: 0.22em; font-size: 1.85em;
+}
+h2 {
+	font-size: 1.25em;
+}
+h3 {
+	font-size: 1em;
+}
+h4 {
+	font-size: 1em;
+}
+h5 {
+	font-size: 1em;
+}
+h6 {
+	font-size: 1em;
+}
+@media screen and (max-width:480px)
+{
+h1 {
+	font-size: 1.65em;
+}
+}
+sub {
+	top: 0.5em; font-size: 0.8em; position: relative;
+}
+sup {
+	top: -0.5em; font-size: 0.8em; position: relative;
+}
+hr {
+	border-width: 0px 0px 1px; border-style: none none solid; border-color: currentColor currentColor rgb(200, 204, 207); margin: 3em 0px; border-image: none;
+}
+form {
+	margin: 0px 0px 1.5em;
+}
+form > .field {
+	margin: 0px 0px 1.5em;
+}
+form > .field > :last-child {
+	margin-bottom: 0px;
+}
+label {
+	margin: 0px 0px 0.75em; color: rgb(49, 63, 71); font-size: 0.9em; display: block;
+}
+input[type='text'] {
+	padding: 0px 1em; outline: 0px; border-radius: 4px; border: 1px solid rgb(200, 204, 207); border-image: none; width: 100%; color: inherit; text-decoration: none; display: block; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+input[type='password'] {
+	padding: 0px 1em; outline: 0px; border-radius: 4px; border: 1px solid rgb(200, 204, 207); border-image: none; width: 100%; color: inherit; text-decoration: none; display: block; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+input[type='email'] {
+	padding: 0px 1em; outline: 0px; border-radius: 4px; border: 1px solid rgb(200, 204, 207); border-image: none; width: 100%; color: inherit; text-decoration: none; display: block; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+input[type='tel'] {
+	padding: 0px 1em; outline: 0px; border-radius: 4px; border: 1px solid rgb(200, 204, 207); border-image: none; width: 100%; color: inherit; text-decoration: none; display: block; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+select {
+	padding: 0px 1em; outline: 0px; border-radius: 4px; border: 1px solid rgb(200, 204, 207); border-image: none; width: 100%; color: inherit; text-decoration: none; display: block; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+textarea {
+	padding: 0px 1em; outline: 0px; border-radius: 4px; border: 1px solid rgb(200, 204, 207); border-image: none; width: 100%; color: inherit; text-decoration: none; display: block; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+input[type='text']:invalid {
+	box-shadow: none;
+}
+input[type='password']:invalid {
+	box-shadow: none;
+}
+input[type='email']:invalid {
+	box-shadow: none;
+}
+input[type='tel']:invalid {
+	box-shadow: none;
+}
+select:invalid {
+	box-shadow: none;
+}
+textarea:invalid {
+	box-shadow: none;
+}
+input[type='text']:focus {
+	border-color: rgb(255, 116, 150);
+}
+input[type='password']:focus {
+	border-color: rgb(255, 116, 150);
+}
+input[type='email']:focus {
+	border-color: rgb(255, 116, 150);
+}
+input[type='tel']:focus {
+	border-color: rgb(255, 116, 150);
+}
+select:focus {
+	border-color: rgb(255, 116, 150);
+}
+textarea:focus {
+	border-color: rgb(255, 116, 150);
+}
+.select-wrapper {
+	text-decoration: none; display: block; position: relative;
+}
+.select-wrapper::before {
+	text-transform: none !important; font-family: FontAwesome; font-style: normal; font-weight: normal; content: "?"; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.select-wrapper::before {
+	top: 0px; width: 2.75em; height: 2.75em; text-align: center; right: 0px; color: rgb(200, 204, 207); line-height: 2.75em; display: block; position: absolute; pointer-events: none;
+}
+.select-wrapper select::-ms-expand {
+	display: none;
+}
+input[type='text'] {
+	height: 2.75em;
+}
+input[type='password'] {
+	height: 2.75em;
+}
+input[type='email'] {
+	height: 2.75em;
+}
+select {
+	height: 2.75em;
+}
+textarea {
+	padding: 0.75em 1em;
+}
+input[type='checkbox'] {
+	width: 1em; margin-right: -2em; float: left; display: block; z-index: -1; opacity: 0; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+input[type='radio'] {
+	width: 1em; margin-right: -2em; float: left; display: block; z-index: -1; opacity: 0; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+input[type='checkbox'] + label {
+	color: rgb(65, 79, 87); padding-right: 0.75em; padding-left: 2.4em; font-size: 1em; font-weight: 300; text-decoration: none; display: inline-block; position: relative; cursor: pointer;
+}
+input[type='radio'] + label {
+	color: rgb(65, 79, 87); padding-right: 0.75em; padding-left: 2.4em; font-size: 1em; font-weight: 300; text-decoration: none; display: inline-block; position: relative; cursor: pointer;
+}
+input[type='checkbox'] + label::before {
+	text-transform: none !important; font-family: FontAwesome; font-style: normal; font-weight: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+input[type='radio'] + label::before {
+	text-transform: none !important; font-family: FontAwesome; font-style: normal; font-weight: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+input[type='checkbox'] + label::before {
+	border-radius: 4px; border: 1px solid rgb(200, 204, 207); border-image: none; left: 0px; top: 0.15em; width: 1.65em; height: 1.65em; text-align: center; line-height: 1.58em; display: inline-block; position: absolute; content: "";
+}
+input[type='radio'] + label::before {
+	border-radius: 4px; border: 1px solid rgb(200, 204, 207); border-image: none; left: 0px; top: 0.15em; width: 1.65em; height: 1.65em; text-align: center; line-height: 1.58em; display: inline-block; position: absolute; content: "";
+}
+input[type='checkbox']:checked + label::before {
+	color: rgb(255, 116, 150); content: "\f00c";
+}
+input[type='radio']:checked + label::before {
+	color: rgb(255, 116, 150); content: "\f00c";
+}
+input[type='checkbox']:focus + label::before {
+	border-color: rgb(255, 116, 150);
+}
+input[type='radio']:focus + label::before {
+	border-color: rgb(255, 116, 150);
+}
+input[type='checkbox'] + label::before {
+	border-radius: 4px;
+}
+input[type='radio'] + label::before {
+	border-radius: 100%;
+}
+:-ms-input-placeholder {
+	color: rgb(97, 111, 119) !important; opacity: 1;
+}
+.formerize-placeholder {
+	color: rgb(97, 111, 119) !important; opacity: 1;
+}
+.icon {
+	text-decoration: none; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; position: relative;
+}
+.icon::before {
+	text-transform: none !important; font-family: FontAwesome; font-style: normal; font-weight: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.icon > .label {
+	display: none;
+}
+ol {
+	list-style: decimal; margin: 0px 0px 1.5em; padding-left: 1.25em;
+}
+ol li {
+	padding-left: 0.25em;
+}
+ul {
+	margin: 0px 0px 1.5em; padding-left: 1em;
+}
+ul li {
+	padding-left: 0.5em;
+}
+ul.alt {
+	list-style: none; padding-left: 0px;
+}
+ul.alt li {
+	padding: 0.5em 0px; border-top-color: rgb(200, 204, 207); border-top-width: 1px; border-top-style: solid;
+}
+ul.alt li:first-child {
+	padding-top: 0px; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+ul.icons {
+	list-style: none; padding-left: 0px; margin-top: -0.67em; cursor: default;
+}
+ul.icons li {
+	padding: 0.67em 0.5em; display: inline-block;
+}
+ul.icons li a {
+	border-radius: 100%; border: 1px solid rgb(200, 204, 207); border-image: none; width: 3.75em; height: 3.75em; text-align: center; line-height: 3.75em; text-indent: 3.75em; overflow: hidden; text-decoration: none; display: block; white-space: nowrap; position: relative;
+}
+ul.icons li a::before {
+	text-transform: none !important; font-family: FontAwesome; font-style: normal; font-weight: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+ul.icons li a:hover::before {
+	text-shadow: 1.25px 0px 0px #303030, -1.25px 0px 0px #303030, 0px 1.25px 0px #303030, 0px -1.25px 0px #303030;
+}
+ul.icons li a::before {
+	left: 0px; top: 0px; width: inherit; height: inherit; text-align: center; line-height: inherit; text-indent: 0px; font-size: 1.85rem; position: absolute;
+}
+ul.icons li a:hover {
+	border-color: rgb(48, 48, 48);
+}
+@media screen and (max-width:480px)
+{
+ul.icons li a::before {
+	font-size: 1.5rem;
+}
+}
+ul.actions {
+	list-style: none; padding-left: 0px; cursor: default;
+}
+ul.actions li {
+	padding: 0px 0.75em 0px 0px; vertical-align: middle; display: inline-block;
+}
+ul.actions li:last-child {
+	padding-right: 0px;
+}
+dl {
+	margin: 0px 0px 1.5em;
+}
+dl dt {
+	margin: 0px 0px 0.75em; display: block;
+}
+dl dd {
+	margin-left: 1.5em;
+}
+input[type='submit'] {
+	padding: 0px 1.5em; border-radius: 4px; border: 1px solid rgb(200, 204, 207); transition:background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; border-image: none; height: 2.75em; text-align: center; color: rgb(65, 79, 87) !important; line-height: 2.75em; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; background-color: transparent; -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+input[type='reset'] {
+	padding: 0px 1.5em; border-radius: 4px; border: 1px solid rgb(200, 204, 207); transition:background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; border-image: none; height: 2.75em; text-align: center; color: rgb(65, 79, 87) !important; line-height: 2.75em; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; background-color: transparent; -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+input[type='button'] {
+	padding: 0px 1.5em; border-radius: 4px; border: 1px solid rgb(200, 204, 207); transition:background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; border-image: none; height: 2.75em; text-align: center; color: rgb(65, 79, 87) !important; line-height: 2.75em; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; background-color: transparent; -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+button {
+	padding: 0px 1.5em; border-radius: 4px; border: 1px solid rgb(200, 204, 207); transition:background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; border-image: none; height: 2.75em; text-align: center; color: rgb(65, 79, 87) !important; line-height: 2.75em; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; background-color: transparent; -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+.button {
+	padding: 0px 1.5em; border-radius: 4px; border: 1px solid rgb(200, 204, 207); transition:background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; border-image: none; height: 2.75em; text-align: center; color: rgb(65, 79, 87) !important; line-height: 2.75em; text-decoration: none; display: inline-block; white-space: nowrap; cursor: pointer; background-color: transparent; -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out; -moz-appearance: none; -webkit-appearance: none; -ms-appearance: none; appearance: none;
+}
+input[type='submit']:hover {
+	border-color: rgb(255, 116, 150); color: rgb(255, 116, 150) !important;
+}
+input[type='reset']:hover {
+	border-color: rgb(255, 116, 150); color: rgb(255, 116, 150) !important;
+}
+input[type='button']:hover {
+	border-color: rgb(255, 116, 150); color: rgb(255, 116, 150) !important;
+}
+button:hover {
+	border-color: rgb(255, 116, 150); color: rgb(255, 116, 150) !important;
+}
+.button:hover {
+	border-color: rgb(255, 116, 150); color: rgb(255, 116, 150) !important;
+}
+input[type='submit'].icon {
+	padding-left: 1.35em;
+}
+input[type='reset'].icon {
+	padding-left: 1.35em;
+}
+input[type='button'].icon {
+	padding-left: 1.35em;
+}
+button.icon {
+	padding-left: 1.35em;
+}
+.button.icon {
+	padding-left: 1.35em;
+}
+input[type='submit'].icon::before {
+	margin-right: 0.5em;
+}
+input[type='reset'].icon::before {
+	margin-right: 0.5em;
+}
+input[type='button'].icon::before {
+	margin-right: 0.5em;
+}
+button.icon::before {
+	margin-right: 0.5em;
+}
+.button.icon::before {
+	margin-right: 0.5em;
+}
+input[type='submit'].fit {
+	margin: 0px 0px 0.75em; width: 100%; display: block;
+}
+input[type='reset'].fit {
+	margin: 0px 0px 0.75em; width: 100%; display: block;
+}
+input[type='button'].fit {
+	margin: 0px 0px 0.75em; width: 100%; display: block;
+}
+button.fit {
+	margin: 0px 0px 0.75em; width: 100%; display: block;
+}
+.button.fit {
+	margin: 0px 0px 0.75em; width: 100%; display: block;
+}
+input[type='submit'].small {
+	font-size: 0.8em;
+}
+input[type='reset'].small {
+	font-size: 0.8em;
+}
+input[type='button'].small {
+	font-size: 0.8em;
+}
+button.small {
+	font-size: 0.8em;
+}
+.button.small {
+	font-size: 0.8em;
+}
+input[type='submit'].big {
+	font-size: 1.35em;
+}
+input[type='reset'].big {
+	font-size: 1.35em;
+}
+input[type='button'].big {
+	font-size: 1.35em;
+}
+button.big {
+	font-size: 1.35em;
+}
+.button.big {
+	font-size: 1.35em;
+}
+input[type='submit'].disabled {
+	opacity: 0.5; pointer-events: none; -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none;
+}
+input[type='submit']:disabled {
+	opacity: 0.5; pointer-events: none; -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none;
+}
+input[type='reset'].disabled {
+	opacity: 0.5; pointer-events: none; -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none;
+}
+input[type='reset']:disabled {
+	opacity: 0.5; pointer-events: none; -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none;
+}
+input[type='button'].disabled {
+	opacity: 0.5; pointer-events: none; -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none;
+}
+input[type='button']:disabled {
+	opacity: 0.5; pointer-events: none; -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none;
+}
+button.disabled {
+	opacity: 0.5; pointer-events: none; -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none;
+}
+button:disabled {
+	opacity: 0.5; pointer-events: none; -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none;
+}
+.button.disabled {
+	opacity: 0.5; pointer-events: none; -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none;
+}
+:disabled.button {
+	opacity: 0.5; pointer-events: none; -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none;
+}
+#main {
+	padding: 4.5em 3em 3em; transform-origin: 50% 50%; border-radius: 4px; transition:opacity 1s, transform 1s; text-align: center; position: relative; cursor: default; min-width: 27em; max-width: 100%; opacity: 0.95; transform: rotateX(0deg); -webkit-transform: rotateX(0deg); -moz-transition: opacity 1s ease, -moz-transform 1s ease; -webkit-transition: opacity 1s ease, -webkit-transform 1s ease; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -moz-transform: rotateX(0deg);
+}
+#main .avatar {
+	margin-bottom: 1.5em; display: block; position: relative;
+}
+#main .avatar img {
+	margin: 0px auto; border-radius: 100%; display: block;
+}
+#main .avatar::before {
+	left: -3em; top: 50%; width: calc(100% + 6em); height: 1px; display: block; position: absolute; z-index: -1; content: "";
+}
+@media screen and (max-width:480px)
+{
+#main {
+	padding: 4em 2em 2.5em; width: 100%; min-width: 0px;
+}
+#main .avatar::before {
+	left: -2em; width: calc(100% + 4em);
+}
+}
+body.is-loading #main {
+	opacity: 0; transform: rotateX(15deg); -webkit-transform: rotateX(15deg); -moz-transform: rotateX(15deg);
+}
+#footer {
+	padding: 1.5em 0px 0px; width: 100%; text-align: center; color: rgba(255, 255, 255, 0.75); cursor: default; align-self: flex-end; -moz-align-self: -moz-flex-end; -webkit-align-self: -webkit-flex-end; -ms-align-self: -ms-flex-end;
+}
+#footer .copyright {
+	list-style: none; margin: 0px; padding: 0px; font-size: 0.9em;
+}
+#footer .copyright li {
+	margin: 0px 0px 0px 0.45em; padding: 0px 0px 0px 0.85em; line-height: 1; border-left-color: rgba(255, 255, 255, 0.5); border-left-width: 1px; border-left-style: solid; display: inline-block;
+}
+#footer .copyright li:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+#wrapper {
+	padding: 1.5em; display: flex; position: relative; z-index: 2; min-height: 100%; perspective: 1000px; flex-direction: column; justify-content: space-between; align-items: center; -moz-align-items: center; -webkit-align-items: center; -ms-align-items: center; -moz-justify-content: space-between; -webkit-justify-content: space-between; -ms-justify-content: space-between; -moz-flex-direction: column; -webkit-flex-direction: column; -moz-perspective: 1000px; -webkit-perspective: 1000px;
+}
+#wrapper > * {
+	z-index: 1;
+}
+#wrapper::before {
+	display: block; content: "";
+}
+@media screen and (max-width:360px)
+{
+#wrapper {
+	padding: 0.75em;
+}
+}
+body.is-ie #wrapper {
+	height: 100%;
+}
